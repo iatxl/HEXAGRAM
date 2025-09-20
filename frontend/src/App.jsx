@@ -26,7 +26,7 @@ import getAllNotifications from './hooks/getAllNotifications'
 import Notifications from './pages/Notifications'
 import AIFeatures from './pages/AIFeatures'
 import { setNotificationData } from './redux/userSlice'
-export const serverUrl="http://localhost:5000"
+export const serverUrl="https://hexagram-backend.onrender.com"
 function App() {
    getCurrentUser()
    getSuggestedUsers()
